@@ -9,7 +9,7 @@ on:
 
 jobs:
   lab-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Start job
         run: echo 'Hello DevOps'
