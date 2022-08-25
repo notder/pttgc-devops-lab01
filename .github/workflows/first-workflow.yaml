@@ -1,3 +1,5 @@
+name: First workflow
+
 on:
   push:
     branches:
