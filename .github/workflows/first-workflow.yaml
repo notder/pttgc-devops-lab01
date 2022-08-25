@@ -3,13 +3,13 @@ name: First workflow
 on:
   push:
     branches:
-        - "main"
-        - "develop"
-        - "release"
+      - "main"
+      - "develop"
+      - "release"
 
 jobs:
-    lab-job:
-        run-ons: ubuntu-latest
-        steps:
-            - name: Start job
-              run: echo 'Hello DevOps'
+  lab-job:
+    run-on: ubuntu-latest
+    steps:
+      - name: Start job
+        run: echo 'Hello DevOps'
